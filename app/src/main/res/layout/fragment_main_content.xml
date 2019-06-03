@@ -7,7 +7,7 @@
              tools:context=".fragments.MainContentFragment" android:orientation="vertical">
 
 
-    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="80dp" android:orientation="horizontal">
+    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="70dp" android:orientation="horizontal">
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:textSize="15dp"
                   android:text="Ganador: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
@@ -16,7 +16,7 @@
 
     </LinearLayout>
 
-    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="80dp" android:orientation="horizontal" >
+    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="70dp" android:orientation="horizontal" >
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:textSize="15dp"
                   android:text="Fecha: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
@@ -24,7 +24,7 @@
                   android:id="@+id/frag_fecha" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
 
     </LinearLayout>
-    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="80dp" android:orientation="horizontal" >
+    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="70dp" android:orientation="horizontal" >
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:textSize="15dp"
                   android:text="Hora: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
