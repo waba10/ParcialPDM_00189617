@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+              android:gravity="center"
+             android:layout_height="match_parent"
+             tools:context=".fragments.MainContentFragment" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="80dp" android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="15dp"
+                  android:text="Ganador: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                  android:id="@+id/frag_ganador" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="80dp" android:orientation="horizontal" >
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="15dp"
+                  android:text="Fecha: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                  android:id="@+id/frag_fecha" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:gravity="center" android:layout_height="80dp" android:orientation="horizontal" >
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="15dp"
+                  android:text="Hora: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                  android:id="@+id/frag_hora" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="150dp"  android:orientation="horizontal"  >
+
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                      android:orientation="vertical" android:gravity="center">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                      android:text="Equipo local: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                      android:id="@+id/frag_local" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textSize="15dp"
+                      android:text="Total: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                      android:id="@+id/frag_total_local" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+                      android:orientation="vertical" android:gravity="center">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                      android:text="Equipo visitante: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                      android:id="@+id/frag_visitante" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textSize="15dp"
+                      android:text="Total: " android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15dp"
+                      android:id="@+id/frag_total_visitante" android:textColor="@color/colorPrimary" android:fontFamily="casual"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
